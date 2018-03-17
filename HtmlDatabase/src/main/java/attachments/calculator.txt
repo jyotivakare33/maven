@@ -1,0 +1,43 @@
+ADVANCED CALCULATOR
+CHALLENGE DESCRIPTION:
+
+The goal of this challenge is to create an advanced calculator. 
+The following operations should be supported with their order (operator precedence): 
+    Pi        Pi number
+    e         Eulers number
+    sqrt()    Square root
+    cos()     Cosine (using radians as an argument)
+    sin()     Sine (using radians as an argument)
+    tan()     Tangent (using radians as an argument)
+    lg()      Decimal logarithm
+    ln()      Natural logarithm
+1   ()        Brackets
+2   ||        Absolute value, e.g. |-5 - 10|
+3   !         Factorial
+4   -         Unary minus
+5   ^         Exponent
+6   mod       Modulus divide, e.g. 5 mod 2 = 1 (only integers will be supplied here)
+7   *, /      Multiply, Divide (left-to-right precedence)
+8   +, -      Add, Subtract (left-to-right precedence)
+INPUT SAMPLE:
+
+Your program should accept as its first argument a path to a filename. The input file contains several lines. Each line is one test case. Each line contains mathematical expression. E.g.
+
+250*14.3
+3^6 / 117
+(2.16 - 48.34)^-1
+(59 - 15 + 3*6)/21
+lg(10) + ln(e)
+15*5 mod 2
+
+
+OUTPUT SAMPLE:
+
+For each set of input produce a single line of output which is the result of calculation.
+
+3575
+6.23077
+−0.02165
+2.95238
+2
+15
